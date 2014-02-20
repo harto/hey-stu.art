@@ -1,11 +1,11 @@
 - name: Tetris
-  slug: tetris
+  url: http://harto.github.io/tetris
   description: Javascript/<code>&lt;canvas&gt;</code>-based Tetris clone
 
 - name: Breakout
-  slug: breakout
+  url: http://harto.github.io/breakout
   description: JavaScript/<code>&lt;canvas&gt;</code>-based Breakout clone
 
 - name: Pac-Man
-  slug: pacman
+  url: http://harto.github.io/pacman
   description: JavaScript/<code>&lt;canvas&gt;</code>-based Pac-Man clone

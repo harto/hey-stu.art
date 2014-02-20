@@ -1,9 +1,0 @@
-[submodule "src/junk/pacman"]
-	path = src/junk/pacman
-	url = git@github.com:harto/pacman.git
-[submodule "src/junk/breakout"]
-	path = src/junk/breakout
-	url = git@github.com:harto/breakout.git
-[submodule "src/junk/tetris"]
-	path = src/junk/tetris
-	url = git@github.com:harto/tetris.git
