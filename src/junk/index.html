@@ -1,0 +1,11 @@
+---
+layout: default
+title: Junk
+---
+
+<dl>
+{% for game in site.data.games %}
+  <dt><a href="./{{ game.slug }}">{{ game.name }}</a></dt>
+  <dd>{{ game.description }}</dd>
+{% endfor %}
+</dl>

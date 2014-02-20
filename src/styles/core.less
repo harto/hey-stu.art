@@ -1,0 +1,64 @@
+.load-font (@local-name, @file-basename) {
+  font-family: @local-name;
+  src: url('../fonts/@{file-basename}.eot');
+  src: url('../fonts/@{file-basename}?#iefix') format('embedded-opentype'),
+       url('../fonts/@{file-basename}.woff') format('woff'),
+       url('../fonts/@{file-basename}.ttf') format('truetype');
+}
+
+@font-face { .load-font('PrimerPrint-Regular', '242B38_0_0'); }
+@font-face { .load-font ('FakeReceipt', '22DEB6_0_0'); }
+
+body {
+  margin: 0;
+  padding: 2em;
+  background: white;
+  color: #333;
+  font-family: PrimerPrint-Regular, Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 120%;
+}
+
+a {
+  color: #FF4100;
+  &:hover {
+    text-decoration: none;
+    color: #00BB3F;
+  }
+}
+
+p { margin: 1em 0; }
+
+h1 { font-size: 1em; }
+
+#wrapper {
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+#masthead {
+  > h1 {
+    font-family: FakeReceipt, sans-serif;
+    font-weight: normal;
+    font-size: 2.5em;
+    margin: 0 0 1em;
+    color: #E1004C;
+  }
+}
+
+dl {
+  margin: 1em 0;
+  padding: 0;
+}
+
+dt {
+  float: left;
+  &:after {
+    content: "\a0 \2014 \a0";
+  }
+}
+
+dd {
+  margin: 1em 0;
+  padding: 0;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} @ {% endif %}{{ site.name }}</title>
+    <link rel="stylesheet" href="/styles/core.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="masthead">
+        <h1>{{ site.name }}</h1>
+      </header>
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+    <script src="/scripts/analytics.js"></script>
+  </body>
+</html>
