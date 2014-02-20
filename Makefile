@@ -1,11 +1,11 @@
 BUILD = _site
 SRC = src
 
-.PHONY: default rubygems serve clean
+.PHONY: default serve build-subprojects clean
 
 default: $(BUILD)
 
-$(BUILD): Gemfile.lock $(SRC)
+$(BUILD): Gemfile.lock $(SRC) build-subprojects
 	jekyll build
 
 Gemfile.lock: Gemfile
@@ -14,5 +14,10 @@ Gemfile.lock: Gemfile
 serve:
 	jekyll serve --watch
 
+# TODO: consider moving submodules out of src
+build-subprojects:
+	$(MAKE) $(MFLAGS) --directory=src/junk/pacman
+
 clean:
 	rm -rf $(BUILD)
+	$(MAKE) --directory=src/junk/pacman clean
