@@ -14,7 +14,7 @@ Gemfile.lock: Gemfile
 serve:
 	jekyll serve --watch
 
-deploy:
+deploy: $(BUILD)
 	rsync -rt --delete $(BUILD)/ harto.org:/srv/www/harto.org
 
 clean:
