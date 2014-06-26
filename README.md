@@ -8,8 +8,21 @@ Requires:
  * [Bundler][bundler]
  * [npm][npm]
 
-`make` builds the site. `make deploy` deploys it. `make serve` runs the site in
-development mode, dynamically recompiling changed files.
+
+## Development
+
+```
+$ bundle install
+$ bin/serve
+```
+
+
+## Deployment
+
+```
+$ bin/deploy
+```
+
 
  [jekyll]: http://jekyllrb.com/
  [make]: http://www.gnu.org/software/make/
