@@ -12,7 +12,7 @@ and riding my bicycle.
 This site is my dumping ground for various [experiments](/junk), code snippets
 and occasional blog posts.
 
-You can find me elsewhere on the web at [Github][gh], [Google+][g+] and
+You can find me elsewhere on the web at [GitHub][gh], [Google+][g+] and
 [Twitter][twitter], or contact me at [stuart@harto.org][email].
 
  [99]: https://99designs.com/
