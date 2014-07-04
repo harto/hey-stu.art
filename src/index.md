@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Hello! I'm Stuart Campbell, a Melbourne-based programmer that works at
-[99designs][99].
+Hello! I'm Stuart Campbell, a <del>Melbourne-based</del> San Francisco-based
+Australian programmer that works at [99designs][99].
 
 Outside of work I play drums in [Midnight Caller][mc] and bass guitar in
 [White Woods][ww]. I'm also into such other fascinating shit as cooking, gaming
