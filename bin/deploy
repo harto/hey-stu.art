@@ -8,4 +8,4 @@ cd "$(dirname "$0")"/..
 make clean
 make
 
-rsync -rt --delete _site harto.org:/srv/www/harto.org
+rsync -rt --delete _site/ harto.org:/srv/www/harto.org
