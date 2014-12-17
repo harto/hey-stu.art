@@ -6,7 +6,6 @@ Requires:
 
  * [make][make]
  * [Bundler][bundler]
- * [npm][npm]
 
 
 ## Development
@@ -27,4 +26,3 @@ $ bin/deploy
  [jekyll]: http://jekyllrb.com/
  [make]: http://www.gnu.org/software/make/
  [bundler]: http://bundler.io/
- [npm]: https://www.npmjs.org/

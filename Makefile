@@ -6,7 +6,7 @@ SRC = src
 default: $(BUILD)
 
 $(BUILD): $(SRC)
-	jekyll build
+	bundle exec jekyll build
 
 clean:
 	rm -rf $(BUILD)

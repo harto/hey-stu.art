@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} @ {% endif %}{{ site.name }}</title>
-    <link rel="stylesheet" href="/styles/core.css">
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <div id="wrapper">
-      <header id="masthead">
-        <h1>{{ site.name }}</h1>
-      </header>
-      <div id="content">
-        {{ content }}
-      </div>
-    </div>
-    <script src="/scripts/analytics.js"></script>
-  </body>
+<html lang="en">
+
+    {% include head.html %}
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="three columns">&nbsp;</div>
+                <div class="six columns">
+                    <h1 class="masthead">
+                        {{ site.name | upcase }}
+                    </h1>
+                    <div class="content">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="three columns">&nbsp;</div>
+            </div>
+        </div>
+
+        <script src="/scripts/analytics.js"></script>
+    </body>
 </html>
