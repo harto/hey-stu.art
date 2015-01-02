@@ -3,7 +3,7 @@ SRC = src
 
 .PHONY: default clean
 
-default: $(BUILD)
+all: $(BUILD)
 
 $(BUILD): $(SRC)
 	bundle exec jekyll build
