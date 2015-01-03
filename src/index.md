@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Welcome
 ---
 
 Hello! I'm Stuart Campbell, an Australian computer programmer working at
