@@ -7,7 +7,7 @@ Hello! I'm Stuart Campbell, an Australian computer programmer working at
 [99designs][99d] in San Francisco.
 
 This site is my dumping ground for various [experiments](/junk), code snippets
-and occasional blog posts.
+and [occasional blog posts](/blog).
 
 You can find me elsewhere on the web at [GitHub][gh], [Google+][g+] and
 [Twitter][twitter], or contact me at [stuart@harto.org][email].
