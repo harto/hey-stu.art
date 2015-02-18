@@ -3,9 +3,9 @@ layout: default
 title: Junk
 ---
 
-<dl>
+<dl class="experiment-list">
 {% for game in site.data.games %}
-  <dt><a href="{{ game.url }}">{{ game.name }}</a></dt>
-  <dd>{{ game.description }}</dd>
+    <dt class="experiment-name"><a href="{{ game.url }}">{{ game.name }}</a></dt>
+    <dd class="experiment-description">{{ game.description }}</dd>
 {% endfor %}
 </dl>

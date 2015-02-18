@@ -1,14 +1,13 @@
 body {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-  /* background: #F9FFD9; */
   padding: 6rem 0;
 }
 
-h1 {
-  font-family: 'Raleway Dots', 'Helvetica Neue', 'Helvetica', sans-serif;
-}
-
 .masthead {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
   margin-bottom: 4rem;
 }
 
@@ -30,19 +29,17 @@ a:hover {
   margin: 0 -0.2rem;
 }
 
-dl {
+.experiment-list {
   margin: 1em 0;
   padding: 0;
 }
-
-dt {
+.experiment-name {
   float: left;
 }
-dt:after {
+.experiment-name:after {
   content: "\a0 \2014 \a0";
 }
-
-dd {
+.experiment-description {
   margin: 1em 0;
   padding: 0;
 }
