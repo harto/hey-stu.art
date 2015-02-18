@@ -50,3 +50,20 @@ a:hover {
   margin: 1em 0;
   padding: 0;
 }
+
+.blog-index-link {
+  margin: 4rem 0;
+}
+.blog-post-title {
+  font-family: 'Raleway Dots', sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+  margin: 4rem 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.blog-post-date {
+  color: #777;
+  margin: 1rem 0 3rem;
+}
