@@ -22,6 +22,15 @@ body {
   color: #474747;
 }
 
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 3em 0 2em;
+  letter-spacing: 0;
+  font-weight: bold;
+  color: #777;
+}
+
 a {
   color: #FF4100;
   text-decoration: none;
