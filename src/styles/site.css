@@ -76,3 +76,7 @@ a:hover {
   color: #777;
   margin: 1rem 0 3rem;
 }
+
+#disqus_thread {
+  margin-top: 4rem;
+}
