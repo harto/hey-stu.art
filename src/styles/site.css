@@ -45,6 +45,13 @@ a:hover {
   margin: 0 -0.2rem;
 }
 
+blockquote p {
+  font-style: italic;
+}
+blockquote cite {
+  font-style: normal;
+}
+
 .experiment-list {
   margin: 1em 0;
   padding: 0;
@@ -75,6 +82,13 @@ a:hover {
 .blog-post-date {
   color: #777;
   margin: 1rem 0 3rem;
+}
+
+.gist a {
+  border: 0;
+}
+.gist a:hover {
+  background: inherit;
 }
 
 #disqus_thread {
