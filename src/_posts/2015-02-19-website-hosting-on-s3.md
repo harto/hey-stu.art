@@ -26,7 +26,7 @@ this for me. I could then set `MX` records in Route 53 for my domain, and mail
 forwarding continued to work fine.
 
 
-## Cacheing
+## Caching
 
 CloudFront can either cache assets according to origin cache headers (e.g.
 `Cache-Control`), or according to some minimum
