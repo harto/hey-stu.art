@@ -12,7 +12,7 @@ Requires:
 
 ```
 $ bundle install
-$ bin/serve
+$ bin/develop
 ```
 
 
