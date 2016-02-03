@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work
+title: Stuart Campbell &mdash; Software Engineer
 ---
 
 
