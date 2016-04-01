@@ -5,8 +5,8 @@ title: Welcome
 
 Hello! I'm Stuart Campbell, an Australian computer programmer in San Francisco.
 
-I'm a senior software engineer at [99designs][99d] in Oakland. You can [read
-about my work history here](/work/).
+I'm a senior software engineer at [Spot][spot]. You can [read about my work
+history here](/work/).
 
 This site is my dumping ground for various [experiments](/junk/), code snippets
 and [occasional blog posts](/blog/).
@@ -15,7 +15,7 @@ I'm on [GitHub][gh], [LinkedIn][li], [Google+][g+] and [Twitter][twitter],
 and can be emailed at [stuart@harto.org][email].
 
 
- [99d]: https://99designs.com/
+ [spot]: http://spot.com/
  [gh]: https://github.com/harto
  [li]: https://www.linkedin.com/in/stuartwcampbell
  [g+]: https://plus.google.com/108273519529459141386

@@ -21,17 +21,25 @@ My other technical interests include Clojure, Python and React. Some examples
 can be found on [my GitHub profile][gh].
 
 
+## Spot
+
+ * Senior Software Engineer (2016&mdash;)
+
+[Spot][spot] recommends places according to the friends and experts you trust.
+I'm working on the backend systems that support the [mobile app][spot-app].
+
+
 ## 99designs
 
- * Senior Software Engineer (2013&mdash;)
+ * Senior Software Engineer (2013&mdash;2016)
  * Software Engineer (2012&mdash;2013)
 
 [99designs][99d] is the world's largest online graphic design marketplace, with
 a community of over a million registered designers.
 
-I'm the lead software engineer in 99designs' Oakland, CA office. The team here
-focuses on the design- and designer-oriented parts of the platform. Some of the
-things we've built include:
+I was the lead software engineer in 99designs' Oakland, CA office. The team
+focused on the design- and designer-oriented parts of the platform. Some of the
+things we built include:
 
  * [Discover][99d-discover] &mdash; showcases designs from the community and
    provides design inspiration for potential customers. This is a Rails app,
@@ -113,4 +121,6 @@ work in their PHP-based CMS.
  [99d-oss4]: https://github.com/99designs/githubsurvivor
  [rubicon]: https://www.rubiconwater.com/
  [dws]: http://www.dws.com.au/
+ [spot]: http://spot.com/
+ [spot-app]: https://itunes.apple.com/us/app/spot-best-places-according/id1054510328
  [squiz]: https://www.squiz.net/
