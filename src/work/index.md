@@ -44,7 +44,6 @@ things we built include:
  * [Discover][99d-discover] &mdash; showcases designs from the community and
    provides design inspiration for potential customers. This is a Rails app,
    running via Docker on AWS, and backed by hosted Elasticsearch.
-
  * [Profiles][99d-profiles] &mdash; individual designer portfolios. Designers
    can curate their cover images, crop and rearrange their designs, and offer
    fixed-price [design services][99d-services] to potential clients.
@@ -85,10 +84,8 @@ I worked in many different roles for various clients, including:
 
  * Maintenance of Perl- and Oracle-based ETL pipelines for the data warehouse of
    a major telecommunications provider.
-
  * Development of a J2EE web-based frontend to a complex workflow for a
    metropolitan electricity supplier.
-
  * Provisioning and administration of Linux-based production environments.
 
 
