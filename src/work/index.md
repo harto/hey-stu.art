@@ -26,8 +26,16 @@ can be found on [my GitHub profile][gh].
  * Senior Software Engineer (2016&mdash;)
 
 [Spot][spot] recommends places according to the friends and experts you trust.
-I'm working on the backend systems that support the [mobile app][spot-app].
+I'm working on the backend systems that support the [mobile app][spot-app],
+including:
 
+ * the API that powers the app and public website. This is a Node.js (Restify)
+   app, backed by Postgres and Elasticsearch. It exposes a GraphQL-like
+   interface to enable flexible and batch-efficient fetching of multiple
+   (possibly nested) resources in a single request.
+ * the content ingestion pipeline. This is also a Node.js system, running on
+   AWS, that discovers venue data and expert reviews by crawling and parsing the
+   web.
 
 ## 99designs
 
