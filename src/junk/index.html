@@ -4,8 +4,8 @@ title: Junk
 ---
 
 <dl class="experiment-list">
-{% for game in site.data.games %}
-    <dt class="experiment-name"><a href="{{ game.url }}">{{ game.name }}</a></dt>
-    <dd class="experiment-description">{{ game.description }}</dd>
+{% for e in site.data.experiments %}
+    <dt class="experiment-name"><a href="{{ e.url }}">{{ e.name }}</a></dt>
+    <dd class="experiment-description">{{ e.description }}</dd>
 {% endfor %}
 </dl>
