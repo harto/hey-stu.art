@@ -12,7 +12,7 @@ Combining these two programs can list circular dependencies in a project:
 
 ```
 $ find-requires -e node_modules ~/my-project | \
-  tsort >/dev/null
+    tsort >/dev/null
 tsort: cycle in data
 tsort: lib/a.js
 tsort: lib/b.js
@@ -26,10 +26,9 @@ There are two things that make this solution slightly interesting:
  1. You can often get reasonable results quickly using a naive solution. This
     dependency "parser" simply greps sources for `require()` calls, which isn't
     perfect, but is simple and was very quick to implement.
-
  2. `tsort` is a good example of the [Unix Philosophy][unix-philosophy]. It's
-    easy to plug programs like that together, even beyond their original use. I
-    wish more utility authors embraced this philosophy :-)
+    easy to plumb such programs together, using them for things their creators
+    hadn't envisaged. I wish more utility authors embraced this philosophy :-)
 
 
  [circular-deps]: http://selfcontained.us/2012/05/08/node-js-circular-dependencies/
