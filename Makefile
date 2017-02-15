@@ -22,7 +22,4 @@ cv: stuart-campbell-software-engineer.pdf
 # - MacTex (http://www.tug.org/mactex/morepackages.html)
 # - xelatex on PATH
 stuart-campbell-software-engineer.pdf: $(SRC)/work/index.md
-	pandoc $< --latex-engine=xelatex \
-              --variable mainfont=Helvetica \
-              --variable urlcolor=NavyBlue \
-              -o $@
+	bin/gencv $< $@
