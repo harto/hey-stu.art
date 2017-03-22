@@ -38,7 +38,7 @@ if ! which xelatex >/dev/null; then
   fi
 
   export PATH=$(dirname $(find_xelatex)):$PATH
-fis
+fi
 
 pandoc "$markdown" \
   --latex-engine=xelatex \
