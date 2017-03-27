@@ -112,6 +112,17 @@ I was also subcontracted to [Squiz][squiz] for about a year, performing similar
 work in their PHP-based CMS.
 
 
+## Education
+
+ * Bachelor of Computing, University of Tasmania (2001&mdash;2003)
+
+
+## United States work authorisation
+
+I'm eligible for the E-3 visa, an Australian-specific work visa which takes
+1&mdash;3 weeks to get. See [this E-3 infographic][e3] for more information.
+
+
  [gh]: https://github.com/harto
  [99d]: https://99designs.com/
  [99d-discover]: https://99designs.com/discover
@@ -129,3 +140,4 @@ work in their PHP-based CMS.
  [spot]: http://spot.com/
  [spot-app]: https://itunes.apple.com/us/app/spot-best-places-according/id1054510328
  [squiz]: https://www.squiz.net/
+ [e3]: http://gdaysf.com/wp-content/uploads/2017/02/E3-visa-infographic.png
