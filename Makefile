@@ -9,17 +9,18 @@ $(BUILD): $(SRC)
 	bundle exec jekyll build
 
 clean:
-	rm -rf $(BUILD)
+	rm -rf $(BUILD) $(CV)
 
 # Miscellany
 
+CV = stuart-campbell-software-engineer.pdf
 .PHONY: cv
 
-cv: stuart-campbell-software-engineer.pdf
+cv: $(CV)
 
 # Needs:
 # - Pandoc (http://pandoc.org/)
 # - MacTex (http://www.tug.org/mactex/morepackages.html)
 # - xelatex on PATH
-stuart-campbell-software-engineer.pdf: $(SRC)/work/index.md
+$(CV): $(SRC)/work/index.md bin/gencv
 	bin/gencv $< $@
