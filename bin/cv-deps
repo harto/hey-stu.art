@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#set -euo pipefail
+
+brew install pandoc
+
+tex_installer=~/Downloads/BasicTex.pkg
+if [[ ! -f $installer ]]; then
+  curl -L http://tug.org/cgi-bin/mactex-download/BasicTeX.pkg >$tex_installer
+fi
+open $tex_installer

@@ -9,34 +9,12 @@ fi
 markdown=$1
 pdf=$2
 
-prompt() {
-  echo -n "$1 (y/n): "
-  read response
-  [[ $response = Y || $response = y ]]
-}
-
-if ! which pandoc >/dev/null && prompt "install pandoc?"; then
-  brew install pandoc
-fi
-
 find_xelatex() {
   find /usr/local \( -type l -o -type f \) -name xelatex | head -n1
 }
 
 if ! which xelatex >/dev/null; then
-  # maybe installed but not on PATH
-  xelatex_path=$(find_xelatex)
-
-  if [[ -z $xelatex_path ]] && prompt "install MacTex (xelatex)?"; then
-    installer=~/Downloads/BasicTex.pkg
-    if [[ ! -f $installer ]]; then
-      curl -L http://tug.org/cgi-bin/mactex-download/BasicTeX.pkg >$installer
-    fi
-    open $installer
-    echo "waiting for installation to complete..." >&2
-    wait
-  fi
-
+  # assume installed but not on PATH
   export PATH=$(dirname $(find_xelatex)):$PATH
 fi
 
