@@ -22,4 +22,5 @@ pandoc "$markdown" \
   --latex-engine=xelatex \
   --variable mainfont=Helvetica \
   --variable urlcolor=NavyBlue \
+  -V links-as-notes \
   -o "$pdf"
