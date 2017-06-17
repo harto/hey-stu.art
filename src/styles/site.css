@@ -39,6 +39,15 @@ h2 {
   font-weight: bold;
   color: #777;
 }
+h3 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 3em 0 2em;
+  letter-spacing: 0;
+  font-weight: bold;
+  color: #777;
+}
 
 a {
   color: #FF4100;
