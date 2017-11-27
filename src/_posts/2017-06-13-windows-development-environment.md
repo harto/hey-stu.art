@@ -74,11 +74,13 @@ Once I configured WSL, I was able to install my various [dotfiles][dotfiles] and
 everything was more-or-less working: I could write this post and run Jekyll in
 development mode to see how it looked.
 
-My biggest issue so far has been the reliability of WSL. I installed the Windows
-10 Creators Update in the hope that would help, but I still encounter frequent
-freezes. The system seems to get into a broken state where reinstalling WSL is
-the only fix. I think it's a cool feature of Windows though; hopefully they can
-fix its issues.
+<s>My biggest issue so far has been the reliability of WSL. I installed the
+Windows 10 Creators Update in the hope that would help, but I still encounter
+frequent freezes. The system seems to get into a broken state where reinstalling
+WSL is the only fix. I think it's a cool feature of Windows though; hopefully
+they can fix its issues.</s> **Edit (2017-11-26)**: turns out the anti-virus
+software I was using was quarantining various WSL files. Since uninstalling the
+anti-virus software it works much better.
 
  [cygwin]: https://www.cygwin.com/
  [wsl]: https://msdn.microsoft.com/commandline/wsl/about
