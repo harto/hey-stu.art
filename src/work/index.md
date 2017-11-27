@@ -23,10 +23,10 @@ can be found on [my GitHub profile][gh].
 
 ## Spot
 
- * Senior Software Engineer (2016&mdash;)
+ * Senior Software Engineer (2016&mdash;2017)
 
 [Spot][spot] recommends places according to the friends and experts you trust.
-I'm working on the backend systems that support the [mobile app][spot-app],
+I worked on the backend systems that support the [mobile app][spot-app],
 including:
 
  * the API that powers the app and public website. This is a Node.js (Restify)

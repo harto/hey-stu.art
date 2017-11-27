@@ -5,7 +5,7 @@ title: Welcome
 
 Hello! I'm Stuart Campbell, an Australian computer programmer in San Francisco.
 
-I'm a senior software engineer at [Spot][spot]. You can [read about my work
+I'm a software engineer at [Remix][remix]. You can [read about my work
 history here](/work/).
 
 This site is my dumping ground for various [experiments](/junk/), code snippets
@@ -15,7 +15,7 @@ I'm on [GitHub][gh], [LinkedIn][li], [Google+][g+] and [Twitter][twitter],
 and can be emailed at [stuart@harto.org][email].
 
 
- [spot]: http://spot.com/
+ [remix]: https://www.remix.com/
  [gh]: https://github.com/harto
  [li]: https://www.linkedin.com/in/stuartwcampbell
  [g+]: https://plus.google.com/108273519529459141386
