@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 import subprocess
@@ -9,7 +9,7 @@ DISTRIBUTION_ID = "E1SF6B1PY9A6OP"
 
 def invalidate_objects(paths):
     if not paths:
-        print "Nothing to do"
+        print("Nothing to do")
         return 0
 
     return subprocess.call([
