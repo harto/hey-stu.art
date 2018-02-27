@@ -6,19 +6,12 @@ title: Stuart Campbell &mdash; Software Engineer
 
 # Work
 
-I'm a senior engineer that strives to craft simple, robust software. I work
-closely with product managers and designers, leading small teams to produce
-high-quality products that people love to use.
 
-I'm a good communicator with an easy-going personality. I'm attentive to detail,
-focused, and pragmatic.
+## Remix
 
-My technical background is varied, and in recent years I've specialised in
-building high-traffic, distributed web systems, primarily built with Ruby on
-Rails, AWS, Docker, and Unix-like operating systems.
+ * Software Engineer (2017&mdash;)
 
-My other technical interests include Clojure, Python and React. Some examples
-can be found on [my GitHub profile][gh].
+Building the future of transit at [Remix][remix] :-)
 
 
 ## Spot
@@ -45,7 +38,7 @@ including:
 [99designs][99d] is the world's largest online graphic design marketplace, with
 a community of over a million registered designers.
 
-I was the lead software engineer in 99designs' Oakland, CA office. The team
+I was the lead software engineer in 99designs' Oakland, CA office. My team
 focused on the design- and designer-oriented parts of the platform. Some of the
 things we built include:
 
@@ -60,9 +53,8 @@ I was previously the lead developer of [Projects][99d-projects], a 1-to-1 design
 collaboration platform that has grown into a significant revenue generator for
 99designs.
 
-I've also written [various][99d-blog1] [articles][99d-blog2] for 99designs'
-engineering blog, and [open-sourced][99d-oss1] [several][99d-oss2]
-[internal][99d-oss3] [libraries][99d-oss4].
+I also [wrote][99d-blog1] [articles][99d-blog2] for 99designs' engineering blog,
+and open-sourced [various][99d-oss1] [internal][99d-oss2] [libraries][99d-oss3].
 
 
 ## Rubicon Water
@@ -123,21 +115,21 @@ I'm eligible for the E-3 visa, an Australian-specific work visa which takes
 1&mdash;3 weeks to get. See [this E-3 infographic][e3] for more information.
 
 
- [gh]: https://github.com/harto
- [99d]: https://99designs.com/
- [99d-discover]: https://99designs.com/discover
- [99d-profiles]: https://99designs.com/profiles/489015
- [99d-services]: https://99designs.com/profiles/ludibes/services
- [99d-projects]: https://99designs.com/projects
  [99d-blog1]: http://99designs.com/tech-blog/blog/2013/07/01/thumbnailing-with-thumbor/
  [99d-blog2]: http://99designs.com/tech-blog/blog/2013/01/05/github-survivor/
+ [99d-discover]: https://99designs.com/discover
  [99d-oss1]: https://github.com/99designs/phumbor
  [99d-oss2]: https://github.com/99designs/repl-bundle
  [99d-oss3]: https://github.com/99designs/sipht
- [99d-oss4]: https://github.com/99designs/githubsurvivor
- [rubicon]: https://www.rubiconwater.com/
+ [99d-profiles]: https://99designs.com/profiles/489015
+ [99d-projects]: https://99designs.com/projects
+ [99d-services]: https://99designs.com/profiles/ludibes/services
+ [99d]: https://99designs.com/
  [dws]: http://www.dws.com.au/
- [spot]: http://spot.com/
- [spot-app]: https://itunes.apple.com/us/app/spot-best-places-according/id1054510328
- [squiz]: https://www.squiz.net/
  [e3]: http://gdaysf.com/wp-content/uploads/2017/02/E3-visa-infographic.png
+ [gh]: https://github.com/harto
+ [remix]: https://www.remix.com/
+ [rubicon]: https://www.rubiconwater.com/
+ [spot-app]: https://itunes.apple.com/us/app/spot-best-places-according/id1054510328
+ [spot]: http://spot.com/
+ [squiz]: https://www.squiz.net/
