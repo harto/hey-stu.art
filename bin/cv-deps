@@ -8,3 +8,13 @@ if [[ ! -f $installer ]]; then
   curl -L http://tug.org/cgi-bin/mactex-download/BasicTeX.pkg >$tex_installer
 fi
 open $tex_installer
+
+# We don't use the lm-math fonts, but apparently need them
+
+if ! command -v tlmgr &>/dev/null; then
+  # assume installed but not on PATH
+  export PATH="$(dirname "$(find /usr/local -name tlmgr)"):$PATH"
+fi
+
+sudo tlmgr update --self
+sudo tlmgr install lm-math

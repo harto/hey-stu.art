@@ -10,16 +10,16 @@ markdown=$1
 pdf=$2
 
 find_xelatex() {
-  find /usr/local \( -type l -o -type f \) -name xelatex | head -n1
+  find /usr/local -name xelatex | head -n1
 }
 
-if ! which xelatex >/dev/null; then
+if ! command -v xelatex &>/dev/null; then
   # assume installed but not on PATH
-  export PATH=$(dirname $(find_xelatex)):$PATH
+  export PATH="$(dirname "$(find_xelatex)"):$PATH"
 fi
 
 pandoc "$markdown" \
-  --latex-engine=xelatex \
+  --pdf-engine=xelatex \
   --variable mainfont=Helvetica \
   --variable urlcolor=NavyBlue \
   -V links-as-notes \
