@@ -11,8 +11,27 @@ title: Stuart Campbell &mdash; Software Engineer
 
  * Software Engineer (2017&mdash;)
 
-Building the future of transit at [Remix][remix] :-)
+[Remix][remix] helps cities manage all aspects of transportation. I work on the
+transit team, building features that help transit planners make more informed
+decisions about transit in their cities.
 
+Some things I've worked on include:
+
+ * improvements to the Jane travel isochrone feature. I led a project to revamp
+   the isochrone UI, adding several new options to the React frontend, altering
+   the Cython backend, experimenting with WebGL performance improvements to the
+   isochrone visualization, and ensuring no regressions in API performance.
+ * more detailed costing estimates in the UI. This required building several new
+   React UI components and breaking out intermediate costing calculation results
+   from within the Rails backend.
+
+I also worked on the transit scheduling product, mostly within the Cython/Python
+backend, but also in the React/Redux frontend, building:
+
+ * a system to generate multiple schedules in parallel, and present these
+   possible solutions to transit schedulers in an intuitive way.
+ * a system for exporting Remix schedules in a 3rd-party software format, giving
+   our customers more flexibility in deciding their software tools.
 
 ## Spot
 
@@ -53,8 +72,8 @@ I was previously the lead developer of [Projects][99d-projects], a 1-to-1 design
 collaboration platform that has grown into a significant revenue generator for
 99designs.
 
-I also [wrote][99d-blog1] [articles][99d-blog2] for 99designs' engineering blog,
-and open-sourced [various][99d-oss1] [internal][99d-oss2] [libraries][99d-oss3].
+I also wrote articles for 99designs' engineering blog, and open-sourced various
+internal libraries.
 
 
 ## Rubicon Water
@@ -76,32 +95,9 @@ System, which gives water authorities high-level insight into irrigation needs.
 
  * Software Consultant (2007&mdash;2009)
 
-[DWS][dws] is a Melbourne-based consultancy, providing software development
-services for various companies including major telecommunications and
-infrastructure providers.
-
-I worked in many different roles for various clients, including:
-
- * Maintenance of Perl- and Oracle-based ETL pipelines for the data warehouse of
-   a major telecommunications provider.
- * Development of a J2EE web-based frontend to a complex workflow for a
-   metropolitan electricity supplier.
- * Provisioning and administration of Linux-based production environments.
-
-
 ## Future Medium
 
  * Web Developer (2004&mdash;2007)
-
-Future Medium was a web agency based in Hobart, Tasmania, focused mainly on
-building brochure sites for local private businesses and state government
-departments.
-
-I built websites using the in-house Java-based (initially Perl-based) CMS,
-converting complex visual designs into standards-based HTML and CSS.
-
-I was also subcontracted to [Squiz][squiz] for about a year, performing similar
-work in their PHP-based CMS.
 
 
 ## Education
@@ -118,9 +114,6 @@ I'm eligible for the E-3 visa, an Australian-specific work visa which takes
  [99d-blog1]: http://99designs.com/tech-blog/blog/2013/07/01/thumbnailing-with-thumbor/
  [99d-blog2]: http://99designs.com/tech-blog/blog/2013/01/05/github-survivor/
  [99d-discover]: https://99designs.com/discover
- [99d-oss1]: https://github.com/99designs/phumbor
- [99d-oss2]: https://github.com/99designs/repl-bundle
- [99d-oss3]: https://github.com/99designs/sipht
  [99d-profiles]: https://99designs.com/profiles/489015
  [99d-projects]: https://99designs.com/projects
  [99d-services]: https://99designs.com/profiles/ludibes/services
