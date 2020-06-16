@@ -3,21 +3,16 @@ layout: default
 title: Welcome
 ---
 
-Hello! I'm Stuart Campbell, an Australian computer programmer in San Francisco.
+Hello! I'm Stuart Campbell, an Australian programming computers in San Francisco.
 
-I'm a software engineer at [Remix][remix]. You can [read about my work
-history here](/work/).
+I'm a software engineer at [Remix](https://www.remix.com). Read about my work
+history [here](/work/).
 
-This site is my dumping ground for various [experiments](/junk/), code snippets
-and [occasional blog posts](/blog/).
-
-I'm on [GitHub][gh], [LinkedIn][li], [Google+][g+] and [Twitter][twitter],
-and can be emailed at [stuart@harto.org][email].
-
-
- [remix]: https://www.remix.com/
- [gh]: https://github.com/harto
- [li]: https://www.linkedin.com/in/stuartwcampbell
- [g+]: https://plus.google.com/108273519529459141386
- [twitter]: https://twitter.com/stuart_harto
- [email]: mailto:stuart@harto.org
+<section id="contact-details">
+<ul>
+<li><a href="https://github.com/harto">GitHub</a></li>
+<li><a href="https://www.linkedin.com/in/stuartwcampbell">LinkedIn</a></li>
+<li><a href="https://twitter.com/stuart_harto">Twitter</a></li>
+<li><a href="mailto:stuart@harto.org">stuart@harto.org</a></li>
+</ul>
+</section>
