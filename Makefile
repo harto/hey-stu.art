@@ -1,26 +1,19 @@
 BUILD = _site
 SRC = src
 
-.PHONY: default clean
+.PHONY: all clean
 
-all: $(BUILD)
+all: _site
 
-$(BUILD): $(SRC)
+_site: src src/work/index.md
 	bundle exec jekyll build
+	touch $@
+
+src/work/index.md: ../cv/cv.md
+	cp $< $@
+
+../cv/cv.md:
+	git clone git@github.com:harto/cv.git ../cv
 
 clean:
-	rm -rf $(BUILD) $(CV)
-
-# Miscellany
-
-CV = stuart-campbell-software-engineer.pdf
-.PHONY: cv
-
-cv: $(CV)
-
-# Needs:
-# - Pandoc (http://pandoc.org/)
-# - MacTex (http://www.tug.org/mactex/morepackages.html)
-# - xelatex on PATH
-$(CV): $(SRC)/work/index.md bin/gencv
-	bin/gencv $< $@
+	rm -rf _site
