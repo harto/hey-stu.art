@@ -3,5 +3,5 @@ name: harto.org
 source: src
 permalink: blog/:year-:month-:day-:title/
 markdown: redcarpet
-gems:
+plugins:
   - jekyll-gist
