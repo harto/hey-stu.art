@@ -118,6 +118,7 @@ blockquote cite {
   margin: 0 1em 0 0;
   padding: 0 0 0 1em;
   border-left: 1px #474747 solid;
+  white-space: nowrap;
 }
 #contact-details li:first-child {
   margin-left: 0;
