@@ -9,16 +9,14 @@ Requires:
 ## Development
 
 ```
-$ bundle install
+$ make
 $ bin/develop
 ```
 
 
 ## Deployment
 
-```
-$ bin/deploy
-```
+Push to the `main` branch of this repo on GitHub.
 
 
  [jekyll]: http://jekyllrb.com/

@@ -1,7 +1,0 @@
-# Jekyll configuration
-name: hey-stu.art
-source: src
-permalink: blog/:year-:month-:day-:title/
-markdown: redcarpet
-plugins:
-  - jekyll-gist

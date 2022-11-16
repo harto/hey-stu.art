@@ -3,17 +3,14 @@ SRC = src
 
 .PHONY: all clean
 
-all: _site
+all: docs/work/index.md
 
-_site: src src/work/index.md
-	bundle exec jekyll build
-	touch $@
-
-src/work/index.md: ../cv/cv.md
+docs/work/index.md: ../cv/cv.md
 	cp $< $@
 
+# TODO: perhaps this should be a submodule?
 ../cv/cv.md:
 	git clone git@github.com:harto/cv.git ../cv
 
 clean:
-	rm -rf _site
+	rm docs/work/index.md

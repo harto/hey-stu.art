@@ -5,4 +5,4 @@ set -x
 
 cd "$(dirname "$0")"/..
 
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --watch --source=docs
